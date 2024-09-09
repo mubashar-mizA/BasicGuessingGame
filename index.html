@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <main class="h-96 flex flex-col justify-between ">
+        
+        <div >
+            <header class="bg-slate-600 text-white text-center p-3">
+                <h1 class="text-3xl">The Guessing Game</h1>
+            </header>
+    
+            <input 
+            type="number" 
+            id="user-guess" 
+            class="placeholder-black outline-none border p-2 rounded-md block mx-auto my-3"
+            placeholder="Enter Your Guess Here">
+
+            <button  
+            class="bg-green-500 text-white 
+            px-6  shadow-md rounded-xl hover:bg-green-700 block mx-auto my-3"
+            id="guess-btn">Guess</button>
+
+        </div>
+
+        
+        <div id="result-message-box" 
+        class="msg-container border text-black text-center mx-auto p-10 rounded-md w-110" 
+        ></div>
+
+        <h2 class="text-center hover:underline"><a href="#explore-section"
+      
+            class="text-blue-600"
+            >Explore more</a>
+        </h2>
+
+    </main>
+
+
+
+
+</body>
+</html>
